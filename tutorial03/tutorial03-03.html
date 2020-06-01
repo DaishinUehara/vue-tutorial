@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Vue.js Tutorial 算出プロパティ</title>
+    </head>
+    <body>
+        <!-- 開始 -->
+        <div id="app">
+            <div>誕生年:{{birthYear}}</div>
+            <div>年:{{year}}</div>
+            <div>年齢:{{age()}}</div>
+            <div>
+                <input type="button" value="クリック" v-on:click="onclick" />
+            </div>
+        </div>
+        <!-- 終了 -->
+        <script src="../lib/vue.js"></script>
+        <script src="js/tutorial03-03.js"></script>
+    </body>
+</html>
